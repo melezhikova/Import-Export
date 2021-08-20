@@ -13,10 +13,9 @@ function readGameSaving() {
 function writeGameSaving() {
 }
 
-const defaultGame = new Game();
-export default defaultGame;
+import Character from "./domain.js";
+
+export default class Game {};
 export class GameSavingData {};
 export function readGameSaving();
 export function writeGameSaving();
-
-import defaultCharacter from "./domain.js";
